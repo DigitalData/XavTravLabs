@@ -1,14 +1,15 @@
+
+
 body{
   text-align: center;
-  font-family: tahoma;
+  font-family: verdana;
   color: white;
   background-color: black;
 }
 
 h1{
-  font-size: 6vmin;
-}
-h2{}
+  font-size: 6vmin;}
+h2{font-size: 5vmin;}
 h3{
   font-size: 2.5vmin;
 }
@@ -43,7 +44,7 @@ nav>ul{
   margin:0;
   padding:0;
   vertical-align: middle;
-  font-size: 3vmin
+  font-size: 2.5vmin
 }
 
 nav>ul>li{
@@ -93,8 +94,11 @@ aside{
   width: 15%;
   background-color: darkred;
   border-radius: 10px;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
 }
+
+aside>h1{font-size: 4vmin;
+  padding-top: 10%;}
 
 section{
   position:fixed;
@@ -116,5 +120,5 @@ footer{
   margin-left: -2%;
   width: 100%;
   padding: 2%;
-  font-size: 2vmin;
+  font-size: 1.8vmin;
 }
