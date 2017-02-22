@@ -7,6 +7,10 @@ body{
   background-color: black;
 }
 
+header,section,footer,aside,nav,article,hgroup{
+  display: block;
+}
+
 h1{
   font-size: 6vmin;}
 h2{font-size: 5vmin;}
@@ -36,6 +40,7 @@ nav{
   height: 100%;
   width: 15%;
   vertical-align: middle;
+  background-color: darkred;
 }
 
 nav>ul{
